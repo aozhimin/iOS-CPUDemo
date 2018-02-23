@@ -13,6 +13,7 @@
 		15249D7620401C5E0094900E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15249D7520401C5E0094900E /* Assets.xcassets */; };
 		15249D7920401C5E0094900E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15249D7720401C5E0094900E /* LaunchScreen.storyboard */; };
 		15249D7C20401C5E0094900E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15249D7B20401C5E0094900E /* main.m */; };
+		15249D8320401D4E0094900E /* cpuFreq.s in Sources */ = {isa = PBXBuildFile; fileRef = 15249D8220401D4E0094900E /* cpuFreq.s */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		15249D7820401C5E0094900E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15249D7A20401C5E0094900E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15249D7B20401C5E0094900E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15249D8220401D4E0094900E /* cpuFreq.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = cpuFreq.s; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				15249D7720401C5E0094900E /* LaunchScreen.storyboard */,
 				15249D7A20401C5E0094900E /* Info.plist */,
 				15249D7B20401C5E0094900E /* main.m */,
+				15249D8220401D4E0094900E /* cpuFreq.s */,
 			);
 			path = CPUDemo;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15249D8320401D4E0094900E /* cpuFreq.s in Sources */,
 				15249D7120401C5E0094900E /* ViewController.m in Sources */,
 				15249D7C20401C5E0094900E /* main.m in Sources */,
 				15249D6E20401C5E0094900E /* AppDelegate.m in Sources */,
