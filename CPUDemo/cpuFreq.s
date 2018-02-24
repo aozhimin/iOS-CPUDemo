@@ -7,165 +7,170 @@
 //
 
 .text
+.text
 .align 4
 .globl _freqTest
 
 _freqTest:
 
-push    {r4-r11, lr}
+STP x4, x5, [sp, #16 * 0]
+STP x6, x7, [sp, #16 * 1]
+STP x8, x9, [sp, #16 * 2]
+STP x10, x11, [sp, #16 * 3]
 
 freqTest_LOOP:
 
 // loop 1
-add     r2, r2, r1
-add     r3, r3, r2
-add     r4, r4, r3
-add     r5, r5, r4
-add     r6, r6, r5
-add     r7, r7, r6
-add     r8, r8, r7
-add     r9, r9, r8
-add     r10, r10, r9
-add     r11, r11, r10
-add     r12, r12, r11
-add     r14, r14, r12
-add     r1, r1, r14
+add     x2, x2, x1
+add     x3, x3, x2
+add     x4, x4, x3
+add     x5, x5, x4
+add     x6, x6, x5
+add     x7, x7, x6
+add     x8, x8, x7
+add     x9, x9, x8
+add     x10, x10, x9
+add     x11, x11, x10
+add     x12, x12, x11
+add     x14, x14, x12
+add     x1, x1, x14
 
 // loop 2
-add     r2, r2, r1
-add     r3, r3, r2
-add     r4, r4, r3
-add     r5, r5, r4
-add     r6, r6, r5
-add     r7, r7, r6
-add     r8, r8, r7
-add     r9, r9, r8
-add     r10, r10, r9
-add     r11, r11, r10
-add     r12, r12, r11
-add     r14, r14, r12
-add     r1, r1, r14
+add     x2, x2, x1
+add     x3, x3, x2
+add     x4, x4, x3
+add     x5, x5, x4
+add     x6, x6, x5
+add     x7, x7, x6
+add     x8, x8, x7
+add     x9, x9, x8
+add     x10, x10, x9
+add     x11, x11, x10
+add     x12, x12, x11
+add     x14, x14, x12
+add     x1, x1, x14
 
 // loop 3
-add     r2, r2, r1
-add     r3, r3, r2
-add     r4, r4, r3
-add     r5, r5, r4
-add     r6, r6, r5
-add     r7, r7, r6
-add     r8, r8, r7
-add     r9, r9, r8
-add     r10, r10, r9
-add     r11, r11, r10
-add     r12, r12, r11
-add     r14, r14, r12
-add     r1, r1, r14
+add     x2, x2, x1
+add     x3, x3, x2
+add     x4, x4, x3
+add     x5, x5, x4
+add     x6, x6, x5
+add     x7, x7, x6
+add     x8, x8, x7
+add     x9, x9, x8
+add     x10, x10, x9
+add     x11, x11, x10
+add     x12, x12, x11
+add     x14, x14, x12
+add     x1, x1, x14
 
 // loop 4
-add     r2, r2, r1
-add     r3, r3, r2
-add     r4, r4, r3
-add     r5, r5, r4
-add     r6, r6, r5
-add     r7, r7, r6
-add     r8, r8, r7
-add     r9, r9, r8
-add     r10, r10, r9
-add     r11, r11, r10
-add     r12, r12, r11
-add     r14, r14, r12
-add     r1, r1, r14
+add     x2, x2, x1
+add     x3, x3, x2
+add     x4, x4, x3
+add     x5, x5, x4
+add     x6, x6, x5
+add     x7, x7, x6
+add     x8, x8, x7
+add     x9, x9, x8
+add     x10, x10, x9
+add     x11, x11, x10
+add     x12, x12, x11
+add     x14, x14, x12
+add     x1, x1, x14
 
 // loop 5
-add     r2, r2, r1
-add     r3, r3, r2
-add     r4, r4, r3
-add     r5, r5, r4
-add     r6, r6, r5
-add     r7, r7, r6
-add     r8, r8, r7
-add     r9, r9, r8
-add     r10, r10, r9
-add     r11, r11, r10
-add     r12, r12, r11
-add     r14, r14, r12
-add     r1, r1, r14
+add     x2, x2, x1
+add     x3, x3, x2
+add     x4, x4, x3
+add     x5, x5, x4
+add     x6, x6, x5
+add     x7, x7, x6
+add     x8, x8, x7
+add     x9, x9, x8
+add     x10, x10, x9
+add     x11, x11, x10
+add     x12, x12, x11
+add     x14, x14, x12
+add     x1, x1, x14
 
 // loop 6
-add     r2, r2, r1
-add     r3, r3, r2
-add     r4, r4, r3
-add     r5, r5, r4
-add     r6, r6, r5
-add     r7, r7, r6
-add     r8, r8, r7
-add     r9, r9, r8
-add     r10, r10, r9
-add     r11, r11, r10
-add     r12, r12, r11
-add     r14, r14, r12
-add     r1, r1, r14
+add     x2, x2, x1
+add     x3, x3, x2
+add     x4, x4, x3
+add     x5, x5, x4
+add     x6, x6, x5
+add     x7, x7, x6
+add     x8, x8, x7
+add     x9, x9, x8
+add     x10, x10, x9
+add     x11, x11, x10
+add     x12, x12, x11
+add     x14, x14, x12
+add     x1, x1, x14
 
 // loop 7
-add     r2, r2, r1
-add     r3, r3, r2
-add     r4, r4, r3
-add     r5, r5, r4
-add     r6, r6, r5
-add     r7, r7, r6
-add     r8, r8, r7
-add     r9, r9, r8
-add     r10, r10, r9
-add     r11, r11, r10
-add     r12, r12, r11
-add     r14, r14, r12
-add     r1, r1, r14
+add     x2, x2, x1
+add     x3, x3, x2
+add     x4, x4, x3
+add     x5, x5, x4
+add     x6, x6, x5
+add     x7, x7, x6
+add     x8, x8, x7
+add     x9, x9, x8
+add     x10, x10, x9
+add     x11, x11, x10
+add     x12, x12, x11
+add     x14, x14, x12
+add     x1, x1, x14
 
 // loop 8
-add     r2, r2, r1
-add     r3, r3, r2
-add     r4, r4, r3
-add     r5, r5, r4
-add     r6, r6, r5
-add     r7, r7, r6
-add     r8, r8, r7
-add     r9, r9, r8
-add     r10, r10, r9
-add     r11, r11, r10
-add     r12, r12, r11
-add     r14, r14, r12
-add     r1, r1, r14
+add     x2, x2, x1
+add     x3, x3, x2
+add     x4, x4, x3
+add     x5, x5, x4
+add     x6, x6, x5
+add     x7, x7, x6
+add     x8, x8, x7
+add     x9, x9, x8
+add     x10, x10, x9
+add     x11, x11, x10
+add     x12, x12, x11
+add     x14, x14, x12
+add     x1, x1, x14
 
 // loop 9
-add     r2, r2, r1
-add     r3, r3, r2
-add     r4, r4, r3
-add     r5, r5, r4
-add     r6, r6, r5
-add     r7, r7, r6
-add     r8, r8, r7
-add     r9, r9, r8
-add     r10, r10, r9
-add     r11, r11, r10
-add     r12, r12, r11
-add     r14, r14, r12
-add     r1, r1, r14
+add     x2, x2, x1
+add     x3, x3, x2
+add     x4, x4, x3
+add     x5, x5, x4
+add     x6, x6, x5
+add     x7, x7, x6
+add     x8, x8, x7
+add     x9, x9, x8
+add     x10, x10, x9
+add     x11, x11, x10
+add     x12, x12, x11
+add     x14, x14, x12
+add     x1, x1, x14
 
 // loop 10
-add     r2, r2, r1
-add     r3, r3, r2
-add     r4, r4, r3
-add     r5, r5, r4
-add     r6, r6, r5
-add     r7, r7, r6
-add     r8, r8, r7
-add     r9, r9, r8
-add     r10, r10, r9
-add     r11, r11, r10
-add     r12, r12, r11
-add     r14, r14, r12
-add     r1, r1, r14
+add     x2, x2, x1
+add     x3, x3, x2
+add     x4, x4, x3
+add     x5, x5, x4
+add     x6, x6, x5
+add     x7, x7, x6
+add     x8, x8, x7
+add     x9, x9, x8
+add     x10, x10, x9
+add     x11, x11, x10
+add     x12, x12, x11
+add     x14, x14, x12
+add     x1, x1, x14
 
-subs    r0, r0, #1
+subs    x0, x0, #1
 bne     freqTest_LOOP
-pop     {r4-r11, pc}
+
+RET
